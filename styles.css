@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+header {
+    background-color: #131212;
+    color: #ffffff;
+    padding: 40px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: #cc00ff;
+    text-decoration: none;
+}
+
+#banner {
+    background-image: url('banner.jpg');
+    background-size: cover;
+    color: #0a01014f;
+    padding: 100px 0;
+    text-align: center;
+}
+
+#servicios, #equipo, #contacto {
+    padding: 50px 0;
+}
+
+section h2 {
+    text-align: center;
+    color: #cc00ff; /* Detalles en morado */
+}
+
+section ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+}
+
+section ul li {
+    margin: 10px 0;
+    color: #cc00ff; /* Detalles en morado */
+}
+
+.barber {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.barber img {
+    max-width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+footer {
+    background-color: #131212;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+}
